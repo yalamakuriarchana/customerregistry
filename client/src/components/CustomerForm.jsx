@@ -24,9 +24,11 @@ function CustomerForm() {
 
       window.location.reload();
     } catch (error) {
-      console.error(error);
-      alert("Error adding customer");
-    }
+  console.log(error);
+  console.log(error.response);
+  console.log(error.response?.data);
+  alert(JSON.stringify(error.response?.data));
+}
   };
 
   return (
