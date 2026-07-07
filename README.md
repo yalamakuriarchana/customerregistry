@@ -108,9 +108,4 @@ MongoDB Database
 - Dashboard Analytics
 - Cloud Deployment
 
----
-
-## Status
-
-🚧 Project is currently under development as part of the SkillWallet learning program.
 
